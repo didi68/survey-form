@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <!--Nav-bar-->
+        <header>
+            <div class="container">
+                <div class="navbar">
+                    <a href="#home">Home <img src="house.svg" alt="a house" height="20"></a>
+                    <a href="#about-us">About Us <img src="./bookmark-heart-fill.svg" alt="a bookmark-heart-fill" height="20"></a>
+                    <a href="#contact-us">Contact Us <img src="phone-vibrate.svg" alt="a phone-vibrate" height="20"></a>
+                </div>
+            </div>
+        </header>
+        
+        <div class="main">
+            <!--Personal Information-->
+        <section>
+            <div class="container">
+                <form action="#" method="get">
+                    <label for="personal" class="block">Name <input type="text" required id="personal" placeholder="Enter your name" class="block"></label>
+                    <label for="personal" class="block">Email <input type="email" required id="personal" placeholder="Enter your email" class="block"></label>
+                    <label for="personal" class="block">Age <input type="number" required id="personal" placeholder="Enter your age" class="block"></label>
+                    <label for="personal" class="block">A Picture of you <input type="file" required id="personal" placeholder="Enter your email" class="block"></label>
+                    <label for="personal" class="block">Which option best describes you? 
+                        <select class="block">
+                            <option value="">Choose one</option>
+                            <option value="1">Student</option>
+                            <option value="2">Entrepreneur</option>
+                            <option value="3">Employed</option>
+                            <option value="4">Unemployed</option>
+                        </select>
+                    </label>
+                </form>
+            </div>
+        </section>
+
+        <!--Other Information-->
+        <section>
+            <div class="container">
+                <form action="#" method="get">
+                    <label for="other" class="block">Would you recommend a tech course for a friend? </label>
+                    <span class="radio"><input type="radio" name="radio" id="other"> Yes </span>
+                    <span class="radio"><input type="radio" name="radio" id="other"> No</span> 
+                    <span class="radio"><input type="radio" name="radio" id="other"> Maybe</span>
+
+                    <label for="other" class="block">Languages and Frameworks Known (Check all that apply)</label>
+                    <span class="checkbox"><input type="checkbox" name="checkbox" id="other"> C</span> 
+                    <span class="checkbox"><input type="checkbox" name="checkbox" id="other"> C ++</span> 
+                    <span class="checkbox"><input type="checkbox" name="checkbox" id="other"> C#</span>
+                    <span class="checkbox"><input type="checkbox" name="checkbox" id="other"> Java</span>
+                    <span class="checkbox"><input type="checkbox" name="checkbox" id="other"> Python</span>
+                    <span class="checkbox"><input type="checkbox" name="checkbox" id="other"> JavaScript</span>
+                    <span class="checkbox"><input type="checkbox" name="checkbox" id="other"> React</span>
+                    <span class="checkbox"><input type="checkbox" name="checkbox" id="other"> Angular</span>
+                    <span class="checkbox"><input type="checkbox" name="checkbox" id="other"> Spring</span>
+                </form>
+            </div>
+        </section>
+
+        <!--Suggestions-->
+        <section>
+            <div class="container">
+                <form action="#" method="get">
+                    <label for="textarea" class="block">Any Comments or Suggestions</label>
+                    <textarea>Enter text here</textarea>
+                </form>
+            </div>
+        </section>
+
+        <!--Submit Button-->
+        <section>
+            <div class="container">
+                <form action="#" method="get">
+                    <button type="submit" class="block">Submit</button>
+                </form>
+            </div>
+        </section>
+        </div>
+    </body>
+</html>
+

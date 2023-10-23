@@ -1,0 +1,84 @@
+body {
+    background-color: #45474B;
+}
+
+.main {
+    background-color: white;
+    padding: 5%;
+    margin: 0 auto;
+    width: 50%;
+    font-family: cursive;
+    background-image: url("./wiki-1.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.block {
+    display: block;
+    margin: 2px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    margin: 2%;
+    color: #F5F7F8;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.radio, .checkbox {
+    display: block;  
+}
+
+label, input, button {
+    margin: 10px;
+    width: 100%;
+    padding: 10%;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 2%;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+#other {
+    width: unset;
+}
+
+.navbar {
+    text-align: right;
+    margin: 1%;
+}
+
+a:hover {
+    color: #E1AA74;
+}
+
+input:active, button:active, textarea:active, a:active {
+    color: #495E57;
+}
+
+a:visited {
+    color: #F4CE14;
+}
+
+@media (max-width: 993px) {
+    input {
+        width: 75%;
+    }
+
+    body {
+        background-color: #2B7A0B;
+    }
+
+    .main {
+        background-image: url("elephant.jpg");
+        background-size: contain;
+    }
+
+}
